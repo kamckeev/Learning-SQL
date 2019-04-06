@@ -78,8 +78,7 @@ WHERE actor_id =172;
 -- ********************************************************************** --
 -- 5a. You cannot locate the schema of the address table. Which query would you use to re-create it?
 SHOW CREATE TABLE address;
-DESCRIBE sakila.address;
--- #the form editor feature on the right side of the screen looks to be the easiest way to view the shcema
+
 -- ********************************************************************** --
 -- 6a. Use JOIN to display the first and last names, as well as the address, of each staff member. 
 -- Use the tables staff and address:
